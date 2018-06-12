@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/account",
+    "name": "account",
+    "icon":"ios-book-outline",
+    "title": "库存总账",
+    "component": "Main",
+    "children":[
+      { "path": "totalAccount/2016",
+        "props":{ "year":2016},
+        "title": "2016 年度",
+        "name": "accountView_2016",
+        "component": "account/total/fullyear"
+      },
+      { "path": "totalAccount/2017",
+        "props":{ "year":2017},
+        "title": "2017 年度",
+        "name": "accountView_2017",
+        "component": "account/total/fullyear"
+      }
+    ]
+  }
+]
